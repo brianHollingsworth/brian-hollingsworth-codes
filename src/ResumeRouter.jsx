@@ -11,8 +11,9 @@ import Skillset from "./Skillset";
 import ResumeSection from './ResumeSection';
 
 import { faTwitter, faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faUserCircle, faBriefcase, faCode } from "@fortawesome/free-solid-svg-icons";
+import { faUserCircle, faBriefcase, faCode, faMoon } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import App from "./App";
 
 const routes = [
   {
@@ -51,6 +52,9 @@ export default function ResumeRouter(props) {
             <li>
               <a id="github" href="https://github.com/brianHollingsworth" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} /></a>
             </li>
+            <div id="dark-mode-toggle">
+              <FontAwesomeIcon icon={faMoon} />
+            </div>
           </ul>
         </div>
 

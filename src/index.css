@@ -9,7 +9,7 @@ html, body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-#twitter, #github {
+#twitter, #github, #dark-mode-toggle {
   color: #6e7179;
 }
 
@@ -18,12 +18,16 @@ li {
   text-align: center;
 }
 
-li:hover .svg-inline--fa {
+li:hover .svg-inline--fa, #dark-mode-toggle:hover {
   color: white;
 }
 
-li a {
+li a, #dark-mode-toggle {
   display: block; padding: 1em;
+}
+
+#dark-mode-toggle {
+  transition: color 0.3s ease;
 }
 
 #logo-li {
