@@ -7,7 +7,7 @@ class JobList extends Component {
         return (
             <div>
                 {JobsData.map((jobDetail)=>{
-                    return <Job key={jobDetail.key} title={jobDetail.Title} company={jobDetail.Company} tenure={jobDetail.Tenure} description={jobDetail.Description}/>
+                    return <Job key={jobDetail.key} title={jobDetail.Title} company={jobDetail.Company} tenure={jobDetail.Tenure} description={jobDetail.Description} logo={jobDetail.Logo} site={jobDetail.Site}/>
                 })}
             </div>
         )

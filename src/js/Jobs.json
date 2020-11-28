@@ -5,7 +5,7 @@
         "Company": "Parametric",
         "Site": "https://www.parametricportfolio.com",
         "Description": "Just started a new job. Will update as I progress.",
-        "Icon": "images/Company_Icons/Parametric.png",
+        "Logo": "images/company_logos/Parametric.png",
         "Tenure": "November 2020 - Present"
     },
     {
@@ -14,7 +14,7 @@
         "Company": "Optum",
         "Site": "https://www.optum.com/",
         "Description": "My most challenging and most rewarding experience, working on a truly enterprise-level solution. I am part of a well-versed team of engineers within a greater team of several hundred engineers all working towards the same goal: transform the health care benefits industry. We follow the Kanban methodology and utilize CI/CD tools such as GitHub Enterprise, CA Agile, and Jenkins. Our core Spring Framework project is written in Java EE 8 and built with Apache Maven.</br></br><u>Ehcache:</u> I’ve had several memorable user stories on this project, but my implementation of a systems settings cache first comes to mind when I think of my proudest achievements. Thousands of times per day, our code applies system settings to input; these settings were previously pulled from our database for each application. As one can imagine, that many database reads becomes needlessly taxing when these settings are rarely changed. To offload our database, I implemented an <a href=\"https://www.ehcache.org/\" target=\"_blank\" rel=\"noopener noreferrer\">Ehcache</a> that’s loaded at build time, cleared after an hour, and only reloaded the next time system settings need application. Now, instead of making thousands of daily calls to our database, we make at most a couple dozen.",
-        "Icon": "images/Company_Icons/Optum.png",
+        "Logo": "images/company_logos/Optum.png",
         "Tenure": "October 2018 - November 2020"
     },
     {
@@ -23,7 +23,7 @@
         "Company": "Optum",
         "Site": "https://www.optum.com/",
         "Description": "This is actually the same role as Applications Developer II; UnitedHealth Group made a change to just about everyone's job title, based on job code and functional competency.</br></br><u>Fortify Scans:</u> As of 2018, UnitedHealth Group does not allow new code to be deployed into production if a <a href=\"https://software.microfocus.com/en-us/products/static-code-analysis-sast/overview\" target=\"_blank\" rel=\"noopener noreferrer\">Fortify Static Code Analyzer</a> scan detects vulnerabilities of 'high' or 'critical' severity. All sprint-related work came to a halt, and I spent my days remediating said vulnerabilities in my team's suite of .NET applications.",
-        "Icon": "images/Company_Icons/Optum.png",
+        "Logo": "images/company_logos/Optum.png",
         "Tenure": "August 2018 - October 2018"
     },
     {
@@ -32,7 +32,7 @@
         "Company": "Optum",
         "Site": "https://www.optum.com/",
         "Description": "<u>CorpCard/U.S. Bank:</u> Developed an Optum-certified REST API to enhance the user experience for site admins. Certain employees at UnitedHealth Group require company travel and/or purchasing cards, and the old process for obtaining a card was as follows: internally apply for a card; wait for the request to be approved by a manager; wait for site admins to email the request to our bank affilate; and then wait for our bank affiliate to process the request and send a card in the mail. Notice a trend? There was A LOT of waiting involved. Today, my API directly connects with our bank affiliate's processing service. This allows UHG's corporate card admins to send as many card requests as they like with a single click.</br></br><u>GDPR:</u> After the General Data Protection Regulation (GDPR) was adopted, UnitedHealth Group put together measures for ensuring personal data of its EU employees is kept for only as long as it is being processed for technical and organizational purposes; after which, that data is deemed \"in scope\" for purging. My GDPR program parses identifying information (ID, name, email, etc.) from the \"in scope\" data, queries for records of that information against all of UHG's platforms, and deletes all instances of those records. The true beauty of my program comes from its modularity; I designed it to dynamically change as UHG's presence in Europe expands. Now that I have completed its development, the behavior of my application changes as the EU data protection regime changes.",
-        "Icon": "images/Company_Icons/Optum.png",
+        "Logo": "images/company_logos/Optum.png",
         "Tenure": "January 2018 - August 2018"
     },
     {
@@ -41,7 +41,7 @@
         "Company": "Optum",
         "Site": "https://www.optum.com/",
         "Description": "<u>Selenium:</u> A few days into my new role, I noticed glaring issues in the testing practices for nearly all of my team's applications. Using my automation knowledge from Maverick, it took one demo of Selenium to send a sizemic shift in my team's plan for ATDD. It took me a couple months for my team to go from 100% manual testing to having a lead developer in automated testing (me).</br></br><u>ConcurSTBT:</u> An automated, console-based application that analyzes monthly payroll taxation expense reports. The batch imports and analyzes the content of flight origin and destination records for domestic airport expenses.</br></br><u>SureLock:</u> Optum has been making a huge effort towards becoming fully agile, which required building agile workspaces and mobile lockers in place of archaic cubicles with lockers. SureLock is an internal Node.js application built on top of OpenShift Enterprise that provides employees with a portal to quickly allocate a mobile locker at any one of Optum's agile workspaces.",
-        "Icon": "images/Company_Icons/Optum.png",
+        "Logo": "images/company_logos/Optum.png",
         "Tenure": "November 2016 - January 2018"
     },
     {
@@ -49,7 +49,7 @@
         "Title": "Tech Dev Program Intern",
         "Company": "Optum",
         "Site": "https://www.optum.com/",
-        "Icon": "images/Company_Icons/Optum.png",
+        "Logo": "images/company_logos/Optum.png",
         "Description": "My first go-round with Optum's fantastic Technology Development Program (TDP). TDP interns are introduced to Optum and UnitedHealth Group by working closely with technology professionals, mentors, and leaders over a 12-week period. I spent the summer of 2016 working as a Java Applications Developer on an internal database application that focused on UnitedHealthcare member activity collection (MAC). To put it in a nutshell, UHC insures <i>a lot</i> of companies, ranging from small family shops with single-digit employees to enterprises with hundreds of thousands of employees. The majority of insurance plans involve providing members with monetary compensations when said members complete health-related tasks, like getting a physical. If a member believes his or her compensation is too small, for example, he or she can file a claim to have the compensation corrected. Those claims get sent to data analysts who sift through millions of entries; that's where MAC comes in. Without revealing too much, MAC finds and returns all CLOB claim entries based on the parameters provided by an XML template file. MAC then inserts entries for those members who need recompensation, which provides a clear picture of how many insured members need to be justly repaid.",
         "Tenure": "June 2016 - August 2016"
     },
@@ -58,7 +58,7 @@
         "Title": "Software Engineering Intern",
         "Company": "Maverick Software Consulting",
         "Site": "http://www.mavericksoftware.com/",
-        "Icon": "images/Company_Icons/Maverick.png",
+        "Logo": "images/company_logos/Maverick.png",
         "Description": "The most important job I had during college. I started working for Maverick as a Student Software Engineer from the spring semester of my sophomore year to the penultimate week of my senior year. Maverick contracts with <a href=\"https://www.veritas.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Veritas Technologies</a> (formerly Symantec) to give college students the opportunity to gain crucial real-world experience by working as SQA developers.<br> I wrote countless Perl scripts to automate test scenarios for <a href=\"https://www.veritas.com/product/backup-and-recovery/netbackup-8.html?inid=us_veritas_home_products_netbackup-8\" target=\"_blank\" rel=\"noopener noreferrer\">NetBackup</a>, the world's leading backup and recovery solution for enterprise data centers and hybrid clouds.<br> When I wasn't coding for Maverick, I was out promoting future \"Mavs\" to take a chance and apply. I still advocate for Maverick whenever I can, like when I return to St. Cloud State for CSCI Club, or when I bump into a TDP summer intern at Optum who's looking for advice before they return to school.",
         "Tenure": "March 2014 – April 2016"
     },
@@ -67,7 +67,7 @@
         "Title": "Software Quality Assurance Intern",
         "Company": "Symantec",
         "Site": "https://www.symantec.com/",
-        "Icon": "images/Company_Icons/Symantec.png",
+        "Logo": "images/company_logos/Symantec.png",
         "Description": "I came into my internship with Symantec already having over a full year of experience with the company from my work as a consultant at Maverick. I continued my work with automating test scripts in an Agile environment to which I had been accustomed. My biggest challenge was writing automated scripts and Perl subroutines for Symantec's NetBackup CLI commands to test their functionality with NetBackup's GA front-end web interface, Self Service (formerly Biomni Front Office).",
         "Tenure": "May 2015 – August 2015"
     },
@@ -76,7 +76,7 @@
         "Title": "Manager",
         "Company": "Marnanteli's Pizza",
         "Site": "http://www.marnantelispizza.com/",
-        "Icon": "images/Company_Icons/Marnanteli's.png",
+        "Logo": "images/company_logos/Marnanteli's.png",
         "Description": "Marnanteli's will always be one of my favorite jobs. I began working at the best pizza place in Sartell during my senior year of high school. Starting out at \"the bottom of the totem pole\", I spent the first couple months of my pizza career honing my craft for making the perfect pizza. When I wasn't making works of art in the kitchen, I was cruising around town, delivering lunch and dinner to the wonderful individuals & families of Sartell, Sauk Rapids, Rice, and St. Cloud.<br>I moved up to a manager role about a year after my start date, which meant I needed to be officially recognized as a \"person in charge\" by Minnesota Department of Health Food Code. That title put extra responsibility on my shoulders for ensuring safe food handling practices amongst my staff members.",
         "Tenure": "January 2012 – February 2016"
     },
@@ -85,7 +85,7 @@
         "Title": "Fulfillment Associate",
         "Company": "Merrill Corporation",
         "Site": "https://www.merrillcorp.com/en/",
-        "Icon": "images/Company_Icons/Merrill.png",
+        "Logo": "images/company_logos/Merrill.png",
         "Description": "Even though delivering pizzas for minimum wage and tips was decent money for an 18-year-old, I knew I needed a second source of income to pay for college on my own. This was a 'flex' position that allowed me to work every day that I didn't work at Marnanteli's; so, in a span of less than six months, I went from not having a job to working two jobs, seven days per week.<br>I processed, troubleshot, and completed sales orders (navigating on Windows 7 and Windows XP environments). Prior to production, I quality checked sample prints of files to ensure pristine print quality for client orders. I also prepared, ran, and maintained high-volume digital printers (Océ VarioPrint 6250 and Xerox DocuColor 8000/8080).",
         "Tenure": "July 2012 – February 2014"
     }
